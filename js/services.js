@@ -5,27 +5,27 @@ My Custom JS
 
 */
 $(document).ready(function() {
-  $("#electric-btn").click(function() {
-    $("#electricians").addClass("animated fadeInRight").show();
-    $("#mechanics").addClass("animated fadeInRight").hide();
-    $("#plumbers").addClass("animated fadeInRight").hide();
+  $("#glass-btn").click(function() {
+    $("#glass").addClass("animated fadeInRight").show();
+    $("#stands").addClass("animated fadeInRight").hide();
+    $("#wooden").addClass("animated fadeInRight").hide();
 
   });
 
 
-  $("#plumber-btn").click(function() {
-    $("#plumbers").addClass("animated fadeInRight").show();
-    $("#electricians").addClass("animated fadeInRight").hide();
-    $("#mechanics").addClass("animated fadeInRight").hide();
+  $("#wood-btn").click(function() {
+    $("#wooden").addClass("animated fadeInRight").show();
+    $("#glass").addClass("animated fadeInRight").hide();
+    $("#stands").addClass("animated fadeInRight").hide();
 
 
   });
 
 
-  $("#mech-btn").click(function() {
-    $("#mechanics").addClass("animated fadeInRight").show();
-    $("#electricians").addClass("animated fadeInRight").hide();
-    $("#plumbers").addClass("animated fadeInRight").hide();
+  $("#stands-btn").click(function() {
+    $("#stands").addClass("animated fadeInRight").show();
+    $("#glass").addClass("animated fadeInRight").hide();
+    $("#wooden").addClass("animated fadeInRight").hide();
 
   });
 

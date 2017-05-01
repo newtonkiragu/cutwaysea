@@ -206,13 +206,13 @@ a:hover, a:focus {
   text-align: center;
 }
 
-#workers {
+#preview {
   border: white solid 1px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-#workers h2 p {
+#preview h2 p {
   color: white;
 }
 
